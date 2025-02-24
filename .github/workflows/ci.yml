@@ -1,4 +1,4 @@
-name: Qt Build
+name: CMake Build
 
 on:
   push:
@@ -10,26 +10,17 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest  # You can use 'windows-latest' if you're using Windows runners
+    runs-on: ubuntu-latest
 
     steps:
-      - name: Check out the code
-        uses: actions/checkout@v3
+    - name: Checkout repository
+      uses: actions/checkout@v2
 
-      - name: Set up CMake
-        uses: actions/setup-cmake@v3
+    - name: Set up CMake
+      uses: actions/setup-cmake@v2
 
-      - name: Install Qt
-        run: sudo apt-get install qt5-qmake qtbase5-dev
+    - name: Configure CMake
+      run: cmake -S . -B build
 
-      - name: Build the project
-        run: |
-          mkdir build
-          cd build
-          cmake ..
-          cmake --build .
-
-      - name: Run Tests (optional)
-        run: |
-          cd build
-          ctest --output-on-failure
+    - name: Build with CMake
+      run: cmake --build build
