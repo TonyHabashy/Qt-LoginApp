@@ -14,10 +14,10 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/setup-cmake@v2
+      uses: github-actions/setup-cmake@v2
 
     - name: Set up CMake
-      uses: actions/setup-cmake@v2
+      uses: github-actions/setup-cmake@v2
 
     - name: Configure CMake
       run: cmake -S . -B build
