@@ -21,6 +21,11 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y cmake
 
+    - name: Remove existing CMake cache (if any)
+      run: |
+        rm -rf CMakeCache.txt
+        rm -rf CMakeFiles/
+
     - name: Configure CMake
       run: cmake -S . -B build
 
