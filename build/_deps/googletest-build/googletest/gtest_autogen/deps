@@ -1,0 +1,15 @@
+gtest_autogen/timestamp: \
+	C:/Program\ Files/CMake/share/cmake-3.30/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in \
+	C:/Program\ Files/CMake/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake \
+	C:/Program\ Files/CMake/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake \
+	C:/Program\ Files/CMake/share/cmake-3.30/Modules/FindPackageMessage.cmake \
+	C:/Program\ Files/CMake/share/cmake-3.30/Modules/FindPython/Support.cmake \
+	C:/Program\ Files/CMake/share/cmake-3.30/Modules/FindPython3.cmake \
+	C:/Program\ Files/CMake/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake \
+	C:/Users/tony/Dokumente/LoginApp/build/_deps/googletest-src/googletest/CMakeLists.txt \
+	C:/Users/tony/Dokumente/LoginApp/build/_deps/googletest-src/googletest/cmake/Config.cmake.in \
+	C:/Users/tony/Dokumente/LoginApp/build/_deps/googletest-src/googletest/cmake/gtest.pc.in \
+	C:/Users/tony/Dokumente/LoginApp/build/_deps/googletest-src/googletest/cmake/gtest_main.pc.in \
+	C:/Users/tony/Dokumente/LoginApp/build/_deps/googletest-src/googletest/cmake/internal_utils.cmake \
+	C:/Users/tony/Dokumente/LoginApp/build/_deps/googletest-src/googletest/src/gtest-all.cc \
+	C:/Program\ Files/CMake/bin/cmake.exe
