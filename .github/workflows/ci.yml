@@ -19,7 +19,13 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
       with:
-        ref: main  # Ensure that you're using the correct branch, in case there are issues with default branch
+        ref: main
+        fetch-depth: 1  # Fetch only the latest commit
+
+    - name: Debug - Check Git status and remotes
+      run: |
+        git status
+        git remote -v
 
     - name: Install CMake
       run: |
