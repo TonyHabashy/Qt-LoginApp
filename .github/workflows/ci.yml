@@ -14,17 +14,12 @@ jobs:
 
     steps:
     - name: Check Git version
-      run: git --version  # Ensure that Git is installed
-
-    - name: Clean up previous Git configurations
-      run: |
-        rm -rf .git  # Remove any local Git configuration that could be causing issues
-        git init  # Reinitialize the git repository
+      run: git --version  # Ensure that Git is installed on the runner
 
     - name: Checkout repository
       uses: actions/checkout@v2
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}  # Use token for private repos
+        ref: main  # Ensure that you're using the correct branch, in case there are issues with default branch
 
     - name: Install CMake
       run: |
