@@ -25,6 +25,7 @@ jobs:
       run: |
         rm -rf CMakeCache.txt
         rm -rf CMakeFiles/
+        rm -rf build/
 
     - name: Configure CMake
       run: cmake -S . -B build
