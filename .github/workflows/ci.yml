@@ -20,7 +20,7 @@ jobs:
       uses: actions/checkout@v2
       with:
         ref: main
-        fetch-depth: 0  # Fetch entire history
+        fetch-depth: 1  # Fetch only the latest commit
         submodules: 'recursive'  # Because of using submodules
         
     - name: Debug - Check Git status and remotes
