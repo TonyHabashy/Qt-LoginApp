@@ -21,7 +21,6 @@ jobs:
       with:
         ref: main
         fetch-depth: 1  # Fetch only the latest commit
-        submodules: 'recursive'  # Because of using submodules
         
     - name: Debug - Check Git status and remotes
       run: |
