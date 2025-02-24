@@ -21,6 +21,10 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y cmake
 
+    - name: Install Qt 6
+      run: |
+        sudo apt-get install -y qt6-base-dev
+
     - name: Remove existing CMake cache (if any)
       run: |
         rm -rf CMakeCache.txt
@@ -28,7 +32,8 @@ jobs:
         rm -rf build/
 
     - name: Configure CMake
-      run: cmake -S . -B build
+      run: |
+        cmake -S . -B build -DCMAKE_PREFIX_PATH=/usr/lib/qt6
 
     - name: Build with CMake
       run: cmake --build build
