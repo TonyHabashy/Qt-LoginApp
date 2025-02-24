@@ -15,8 +15,9 @@ This is a simple Qt-based login application that validates user credentials. The
 ## Login Credentials
 For testing purposes, the application uses the following predefined credentials:
 
-Username: test
-Password: test
+- Username: test
+- Password: test
+
 These credentials are used for logging into the application during testing. Make sure to update the credentials as needed before deploying the application in a production environment.
 
 
