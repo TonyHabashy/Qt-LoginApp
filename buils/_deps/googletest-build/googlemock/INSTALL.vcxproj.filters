@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tony\Dokumente\LoginApp\buils\CMakeFiles\6cf21079724b85ba2774f0179ade7ff6\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8B10F7DA-3C6E-350B-8191-61BADBAB3E0F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

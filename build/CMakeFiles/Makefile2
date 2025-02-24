@@ -144,8 +144,8 @@ _deps/googletest-build/googletest/clean: _deps/googletest-build/googletest/CMake
 # Target rules for target CMakeFiles/LoginApp.dir
 
 # All Build rule for target.
-CMakeFiles/LoginApp.dir/all: CMakeFiles/LoginApp_autogen.dir/all
 CMakeFiles/LoginApp.dir/all: CMakeFiles/LoginApp_autogen_timestamp_deps.dir/all
+CMakeFiles/LoginApp.dir/all: CMakeFiles/LoginApp_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LoginApp.dir\build.make CMakeFiles/LoginApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LoginApp.dir\build.make CMakeFiles/LoginApp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\tony\Dokumente\LoginApp\build\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target LoginApp"
@@ -306,8 +306,8 @@ CMakeFiles/tests_autogen.dir/clean:
 
 # All Build rule for target.
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
-_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all: _deps/googletest-build/googlemock/CMakeFiles/gmock_autogen_timestamp_deps.dir/all
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all: _deps/googletest-build/googlemock/CMakeFiles/gmock_autogen.dir/all
+_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all: _deps/googletest-build/googlemock/CMakeFiles/gmock_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\tony\Dokumente\LoginApp\build\CMakeFiles --progress-num=8,9,10,11 "Built target gmock"

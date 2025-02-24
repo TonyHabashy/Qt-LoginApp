@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\tony\Dokumente\LoginApp\buils\LoginApp_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tony\Dokumente\LoginApp\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tony\Dokumente\LoginApp\src\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tony\Dokumente\LoginApp\src\secdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tony\Dokumente\LoginApp\buils\LoginApp_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tony\Dokumente\LoginApp\buils\LoginApp_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tony\Dokumente\LoginApp\buils\LoginApp_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\tony\Dokumente\LoginApp\include\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tony\Dokumente\LoginApp\include\secdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tony\Dokumente\LoginApp\buils\LoginApp_autogen\include_Debug\forms\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tony\Dokumente\LoginApp\buils\LoginApp_autogen\include_Debug\forms\ui_secdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tony\Dokumente\LoginApp\buils\LoginApp_autogen\include_Release\forms\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tony\Dokumente\LoginApp\buils\LoginApp_autogen\include_Release\forms\ui_secdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tony\Dokumente\LoginApp\buils\LoginApp_autogen\include_MinSizeRel\forms\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tony\Dokumente\LoginApp\buils\LoginApp_autogen\include_MinSizeRel\forms\ui_secdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tony\Dokumente\LoginApp\buils\LoginApp_autogen\include_RelWithDebInfo\forms\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tony\Dokumente\LoginApp\buils\LoginApp_autogen\include_RelWithDebInfo\forms\ui_secdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tony\Dokumente\LoginApp\buils\CMakeFiles\7aca97bcfcfa2c366813011e7dfd855c\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tony\Dokumente\LoginApp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\tony\Dokumente\LoginApp\forms\mainwindow.ui" />
+    <None Include="C:\Users\tony\Dokumente\LoginApp\forms\secdialog.ui" />
+    <None Include="C:\Users\tony\Dokumente\LoginApp\buils\LoginApp_autogen\autouic_Debug.stamp" />
+    <None Include="C:\Users\tony\Dokumente\LoginApp\buils\LoginApp_autogen\autouic_Release.stamp" />
+    <None Include="C:\Users\tony\Dokumente\LoginApp\buils\LoginApp_autogen\autouic_MinSizeRel.stamp" />
+    <None Include="C:\Users\tony\Dokumente\LoginApp\buils\LoginApp_autogen\autouic_RelWithDebInfo.stamp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8B10F7DA-3C6E-350B-8191-61BADBAB3E0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{12FB252B-CF4D-33F3-8C4A-D16B0793EB7A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{985C8A64-F6E3-39E0-B3E7-43EFB711C139}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

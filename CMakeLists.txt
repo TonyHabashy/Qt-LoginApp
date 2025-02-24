@@ -39,7 +39,6 @@ set(UI_FILES
 
 set(CMAKE_AUTOUIC_SEARCH_PATHS ${CMAKE_SOURCE_DIR}/forms)
 
-
 # Add the main application executable
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(LoginApp
@@ -90,10 +89,6 @@ add_test(NAME MainTests COMMAND tests)
 # Print GoogleTest Path for debugging
 message(STATUS "GoogleTest Path: ${googletest_SOURCE_DIR}")
 
-# Ensure resources are correctly added in Qt6
-if(${QT_VERSION_MAJOR} EQUAL 6)
-    qt_add_resources(LoginApp "resources.qrc")  # Ensure the qrc file is processed
-endif()
 
 # Finalize the executable for Qt6 if needed
 if(QT_VERSION_MAJOR EQUAL 6)

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tony\Dokumente\LoginApp\buils\_deps\googletest-subbuild\CMakeFiles\3471b11ac82e0561e4d1fe05f4aea3e7\googletest-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tony\Dokumente\LoginApp\buils\_deps\googletest-subbuild\CMakeFiles\3471b11ac82e0561e4d1fe05f4aea3e7\googletest-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tony\Dokumente\LoginApp\buils\_deps\googletest-subbuild\CMakeFiles\3471b11ac82e0561e4d1fe05f4aea3e7\googletest-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tony\Dokumente\LoginApp\buils\_deps\googletest-subbuild\CMakeFiles\3471b11ac82e0561e4d1fe05f4aea3e7\googletest-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tony\Dokumente\LoginApp\buils\_deps\googletest-subbuild\CMakeFiles\3471b11ac82e0561e4d1fe05f4aea3e7\googletest-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tony\Dokumente\LoginApp\buils\_deps\googletest-subbuild\CMakeFiles\3471b11ac82e0561e4d1fe05f4aea3e7\googletest-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tony\Dokumente\LoginApp\buils\_deps\googletest-subbuild\CMakeFiles\3471b11ac82e0561e4d1fe05f4aea3e7\googletest-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tony\Dokumente\LoginApp\buils\_deps\googletest-subbuild\CMakeFiles\3471b11ac82e0561e4d1fe05f4aea3e7\googletest-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tony\Dokumente\LoginApp\buils\_deps\googletest-subbuild\CMakeFiles\3650fb83ef3e68a47ecd81432430ee95\googletest-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tony\Dokumente\LoginApp\buils\_deps\googletest-subbuild\CMakeFiles\dbf6fbec98c09abeac33c8c28c734b31\googletest-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tony\Dokumente\LoginApp\buils\_deps\googletest-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\tony\Dokumente\LoginApp\buils\_deps\googletest-subbuild\CMakeFiles\googletest-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2F137ED0-0C6C-317A-AF3F-6744B1E75349}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

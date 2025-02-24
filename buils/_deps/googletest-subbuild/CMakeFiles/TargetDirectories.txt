@@ -1,0 +1,3 @@
+C:/Users/tony/Dokumente/LoginApp/buils/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+C:/Users/tony/Dokumente/LoginApp/buils/_deps/googletest-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/tony/Dokumente/LoginApp/buils/_deps/googletest-subbuild/CMakeFiles/ZERO_CHECK.dir
