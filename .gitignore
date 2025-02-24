@@ -30,3 +30,4 @@
 *.exe
 *.out
 *.app
+build/_deps/googletest-src/
