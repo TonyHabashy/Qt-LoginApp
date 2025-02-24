@@ -19,11 +19,12 @@ jobs:
     - name: Clean up previous Git configurations
       run: |
         rm -rf .git  # Remove any local Git configuration that could be causing issues
+        git init  # Reinitialize the git repository
 
     - name: Checkout repository
       uses: actions/checkout@v2
       with:
-        fetch-depth: 1  # Ensure shallow fetch to reduce unnecessary data pull
+        token: ${{ secrets.GITHUB_TOKEN }}  # Use token for private repos
 
     - name: Install CMake
       run: |
