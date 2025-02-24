@@ -13,8 +13,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Check Git version
+      run: git --version  # Ensure that Git is installed
+
+    - name: Clean up previous Git configurations
+      run: |
+        rm -rf .git  # Remove any local Git configuration that could be causing issues
+
     - name: Checkout repository
       uses: actions/checkout@v2
+      with:
+        fetch-depth: 1  # Ensure shallow fetch to reduce unnecessary data pull
 
     - name: Install CMake
       run: |
